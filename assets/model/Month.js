@@ -1,6 +1,6 @@
 'use strict';
 
-import Week from './Week';
+import Week from './Week.js';
 
 class Month {
   constructor(date) {

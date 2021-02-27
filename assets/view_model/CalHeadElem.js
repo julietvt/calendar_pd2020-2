@@ -22,4 +22,5 @@ export default function (month) {
     tableR.appendChild(tableHeader);
   });
   tableHeadElem.appendChild(tableR);
+  return tableHeadElem;
 }

@@ -1,6 +1,6 @@
 'use strict';
 
-export default class Day {
+class Day {
   constructor(date) {
     this._date = date;
     this._isCurrent = Day.isCurrent; // false
@@ -20,3 +20,5 @@ export default class Day {
   }
   static current_date = new Date(); // current date
 }
+
+export default Day;
